@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #6c6b6b;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+main {
+    width: 960px;
+    margin: 50px 0;
+}
+
+.container {
+    position: relative;
+    float: left;
+    width: 300px;
+    margin-right: 30px;
+    padding: 10px;
+    border: 1px solid #eee;
+}
+
+.container:last-child {
+    margin-right: 0;
+}
+
+.step-img1 {
+    background-image: url(/Users/yashimayousuke/img/flow01.png);
+    height: 150px;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.step-img2 {
+    background-image: url(/Users/yashimayousuke/img/flow02.png);
+    height: 150px;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.step-img3 {
+    background-image: url(/Users/yashimayousuke/img/flow03.png);
+    height: 150px;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.step-num {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ff9a4b;
+    color: white;
+    padding: 3px;
+}
+
+.title {
+    margin: 15px 0 5px;
+}
+
+
+
+@media screen and (max-width:768px) {
+    main {
+        width: 100%;
+        margin: 50px 0;
+    }
+
+    .container {
+        width: 90%;
+        float: none;
+        margin: 0 5%;
+        margin-bottom: 20px;
+    }
+}
