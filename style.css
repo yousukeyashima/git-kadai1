@@ -27,24 +27,25 @@ main {
 
 .container:last-child {
     margin-right: 0;
+    margin-bottom: 0;
 }
 
 .step-img1 {
-    background-image: url(/Users/yashimayousuke/img/flow01.png);
+    background-image: url(img/flow01.png);
     height: 150px;
     background-position: bottom;
     background-size: cover;
 }
 
 .step-img2 {
-    background-image: url(/Users/yashimayousuke/img/flow02.png);
+    background-image: url(img/flow02.png);
     height: 150px;
     background-position: bottom;
     background-size: cover;
 }
 
 .step-img3 {
-    background-image: url(/Users/yashimayousuke/img/flow03.png);
+    background-image: url(img/flow03.png);
     height: 150px;
     background-position: bottom;
     background-size: cover;
